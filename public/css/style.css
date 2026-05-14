@@ -1,0 +1,405 @@
+.body{
+  zoom: 0.9;
+  font-family: sans-serif;
+}
+.bg-banner {
+  background-color: #fef5d9;
+  color: black;
+}
+
+.img-banner {
+  background-image: url('../img/slideshow-1_10f93c77-966b-42f0-86aa-4d863fbe8090_2048x.jpg');
+  background-position: center;
+  background-size: cover;
+  min-height: 700px;
+}
+
+.navbar-nav {
+  display: inline-flex;
+  align-items: center;
+}
+
+.navbar-nav .nav-item {
+  margin: 0 5px; 
+}
+
+
+.navbar-nav .nav-link-active {
+  color: #555;
+  text-decoration: none;
+}
+
+
+
+
+.img-banner h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+
+.mobile-header .promo {
+  background-color: #f8eecb; /* màu vàng nhạt như mẫu */
+}
+
+.mobile-header .social-icons i {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.mobile-header .social-icons i:hover {
+  color: #f8eecb;
+}
+
+
+.loungewear-section h2 {
+  font-size: 1.8rem;
+  letter-spacing: 2px;
+}
+
+.loungewear-section p {
+  max-width: 500px;
+  margin: 0 auto;
+  font-size: 1rem;
+  color: #333;
+}
+
+.loungewear-section a {
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.text-denim p {
+  margin-left: 30px;
+}
+
+@media (max-width: 768px) {
+  .promo-banner {
+    min-height: 350px;
+  }
+
+  .text-box {
+    position: static;
+    transform: none;
+    padding: 20px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.6);
+  }
+
+  .text-box p {
+    font-size: 1.2rem;
+
+    .text-box p.fs-1 {
+      font-size: 2rem;
+    }
+
+    .text-box a.btn {
+      display: inline-block;
+      margin-top: 10px;
+    }
+  }
+}
+
+.bg-trend {
+  background-color: rgb(244, 243, 238);
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  background-color: #ddd;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dot.active {
+  background-color: #000;
+}
+
+.bg-banner img {
+  transition: transform 0.5s ease;
+}
+
+
+.shop-btn-luxury {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  padding: 12px 30px;
+  min-width: 180px;
+  transition: all 0.3s ease-in-out;
+  border: none;
+  position: relative;
+}
+
+.btn-arrow {
+  opacity: 0;
+  margin-left: 0px;
+  transition: all 0.3s ease-in-out;
+  font-size: 18px;
+  line-height: 1;
+}
+
+.product-title {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.product-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0;
+  height: 2px;
+  background-color: black;
+  transition: width 0.3s ease;
+}
+
+.product-title:hover::after {
+  width: 100%;
+}
+
+
+
+.shop-btn-luxury:hover {
+  padding-right: 20px;
+}
+
+.shop-btn-luxury:hover .btn-arrow {
+  opacity: 1;
+  margin-left: 15px;
+  transform: translateX(5px);
+}
+
+
+.blog-item {
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.blog-img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.blog-img img {
+  width: 100%;
+  display: block;
+  transition: transform 0.8s ease;
+}
+
+
+.blog-content {
+  background-color: #ffffff;
+  width: 90%;
+  margin-top: -50px;
+  margin-left: auto;
+  position: relative;
+  z-index: 5;
+  transition: all 0.4s ease;
+  border-left: 0px solid #000;
+
+}
+
+.blog-divider {
+  width: 50px;
+  height: 3px;
+  background-color: #000;
+  margin: 20px 0;
+  opacity: 1;
+}
+
+.blog-content h5 {
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+
+.meta-data {
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: #888;
+}
+
+
+.rating i {
+  font-size: 10px;
+  margin-right: 2px;
+}
+
+
+.testimonial-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  line-height: 1.8;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.customer-info span {
+  letter-spacing: 0.5px;
+  font-size: 0.8rem;
+}
+
+.custom-testimonial-row {
+  position: relative;
+}
+
+.quote-icon {
+  font-size: 22px;
+  color: #000;
+  opacity: 0.2;
+}
+
+.star-custom {
+  font-size: 10px;
+  margin-right: 2px;
+  color: #000;
+}
+
+.testimonial-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  line-height: 1.7;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.customer-name {
+  font-size: 0.8rem;
+  color: #888;
+  letter-spacing: 0.5px;
+}
+
+@media (min-width: 768px) {
+  .testimonial-grid::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    bottom: 15%;
+    width: 1px;
+    background-color: rgba(0, 0, 0, 0.1);
+    transform: translateX(-50%);
+  }
+}
+
+.footer-custom {
+  background-color: #f6f3ee;
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer-custom h6 {
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+
+.footer-custom h6::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0;
+  height: 2px;
+  background-color: black;
+  transition: width 0.3s ease;
+}
+
+.footer-custom h6:hover::after {
+  width: 100%;
+}
+
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #666;
+  font-size: 0.9rem;
+  transition: 0.3s;
+}
+
+.footer-links a:hover {
+  color: #000;
+}
+
+.contact-info p {
+  color: rgb(39, 38, 34);
+  font-size: 1.1rem;
+}
+
+.newsletter-form .form-control {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background: transparent;
+  border-radius: 0;
+  padding-left: 0;
+  font-size: 0.9rem;
+}
+
+.newsletter-form .form-control:focus {
+  box-shadow: none;
+  border-color: #000;
+}
+
+.newsletter-form .btn-dark {
+  background-color: #1a1a1a;
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+}
+
+.social-icons a {
+  color: #000;
+  font-size: 1.1rem;
+  transition: opacity 0.3s;
+}
+
+
+.border-top {
+  border-top: 1px solid rgba(0, 0, 0, 0.05) !important;
+}
+
+.btn-sign-up {
+  background-color: #1a1a1a !important;
+  color: #ffffff !important;
+  border-radius: 0 !important;
+  padding: 12px 25px;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-sign-up:hover .arrow-icon {
+  opacity: 1;
+  margin-left: 15px;
+  transform: translateX(0);
+}
+
+.arrow-icon {
+  opacity: 0;
+  margin-left: 0px;
+  transform: translateX(-10px);
+  transition: all 0.3s ease;
+}
